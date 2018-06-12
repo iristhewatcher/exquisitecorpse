@@ -1,0 +1,12 @@
+{
+  "name": "ExquisiteCorpse",
+  "description": "Chrome platform app.",
+  "manifest_version": 2,
+  "version": "0.2",
+  "permissions": ["fullscreen", "alwaysOnTopWindows"],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
